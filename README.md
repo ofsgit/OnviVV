@@ -60,6 +60,44 @@ The long-term goal is to make the camera function like a **normal local IP camer
 
 ---
 
+# SoC Support
+
+OnviVV is being developed with support for multiple embedded camera SoC platforms in mind.
+
+| SoC / Platform | Camera Ecosystem          | OnviVV Status  |
+| -------------- | ------------------------- | -------------- |
+| **Fullhan**    | Various CCTV / IP cameras | **Main Build** |
+| **ANKYA**      | V380                      | Planned        |
+| **RealTek**    | YooSEE                    | Planned        |
+| **Grain**      | YooSEE                    | Planned        |
+| **Ingenic**    | Older "Net Cam" cameras   | Planned        |
+
+### Fullhan
+
+**Fullhan** is the primary development platform for OnviVV.
+
+The main OnviVV build will initially focus on compatible Fullhan-based camera hardware, allowing the core system and tooling to be developed around a known target platform.
+
+### ANKYA
+
+**ANKYA** is planned as a target for cameras using the **V380** ecosystem.
+
+### RealTek
+
+**RealTek** is planned for compatible cameras using the **YooSEE** ecosystem.
+
+### Grain
+
+**Grain** is also planned for compatible **YooSEE** cameras.
+
+### Ingenic
+
+**Ingenic** support is planned for older **"Net Cam"** devices and legacy camera hardware.
+
+> **Note:** SoC support does not automatically mean every camera using that SoC will be compatible. Board design, sensor, RAM, flash, bootloader, peripheral hardware, and existing firmware can all affect compatibility.
+
+---
+
 # 🏗️ Current Development
 
 The current development effort is focused on establishing the OnviVV base.
