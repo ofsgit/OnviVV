@@ -94,7 +94,7 @@ The main OnviVV build will initially focus on compatible Fullhan-based camera ha
 
 **Ingenic** support is planned for older **"Net Cam"** devices and legacy camera hardware.
 
-> **Note:** SoC support does not automatically mean every camera using that SoC will be compatible. Board design, sensor, RAM, flash, bootloader, peripheral hardware, and existing firmware can all affect compatibility.
+> **Note:** SoC support does not automatically mean every camera using that SoC will be compatible. Board design, sensor, RAM, flash, bootloader, peripheral hardware, and existing firmware can all affect compatibility. so im focusing of making a very generic image first as the "port".
 
 ---
 
